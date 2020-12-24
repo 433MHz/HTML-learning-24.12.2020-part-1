@@ -9,7 +9,7 @@
 }
 
 
-ol.chapters > li
+ol > li
 {
 	text-transform: uppercase;
 	font-size: 30px;
@@ -18,7 +18,7 @@ ol.chapters > li
 	margin-top: 10px;
 }
 
-ol.chapters > li > ul
+ol > li > ul
 {
 	text-transform: none;
 	font-size: 20px;
@@ -27,17 +27,12 @@ ol.chapters > li > ul
 	margin-left: 3px;
 }
 
-ol.chapters > li > ul:first-child
+ol > li > ul:first-child
 {
 	margin-top: 10px;
 }
 
-ol.chapters
+ol
 {
 	margin-left: 100px;
-}
-
-ol.authors
-{
-	color: blue;
 }
