@@ -36,3 +36,15 @@ ol
 {
 	margin-left: 100px;
 }
+
+ol > li > ul > li:before
+{
+	content: "*";
+	color: red;
+	margin-right: 10px;
+}
+
+ol > li >ul > li
+{
+	list-style-type: none;
+}
